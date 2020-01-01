@@ -1,7 +1,7 @@
 # google-spicetify
 Spotify with Google style
 
-*** Sam's fork instructions ***
+***Sam's fork instructions***
 1. [Install Spicetify](https://github.com/khanhas/spicetify-cli/wiki/Installation) (Mac `$ brew install khanhas/tap/spicetify-cli` or Windows `$ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.ps1" | Invoke-Expression`)
 2. Follow [Spicetify setup instructions](https://github.com/khanhas/spicetify-cli/wiki/Basic-Usage) (`$ spicetifty` to generate config, `$ spicetify backup apply enable-devtool` to initialize and establish a safe backup). From now on, you can run `$ spicetify update` to apply any changes you make.
 3. [Download this folder as zip](https://github.com/sdaitzman/google-spicetify/archive/master.zip) and extract it
