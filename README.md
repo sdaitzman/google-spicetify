@@ -2,14 +2,15 @@
 Spotify with Google style
 
 *** Sam's fork instructions ***
-1. [Install Spicetify](https://github.com/khanhas/spicetify-cli/wiki/Installation)
+1. [Install Spicetify](https://github.com/khanhas/spicetify-cli/wiki/Installation) (Mac `$ brew install khanhas/tap/spicetify-cli` or Windows `$ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.ps1" | Invoke-Expression`)
 2. Follow [Spicetify setup instructions](https://github.com/khanhas/spicetify-cli/wiki/Basic-Usage) (`$ spicetifty` to generate config, `$ spicetify backup apply enable-devtool` to initialize and establish a safe backup). From now on, you can run `$ spicetify update` to apply any changes you make.
 3. [Download this folder as zip](https://github.com/sdaitzman/google-spicetify/archive/master.zip) and extract it
-4. Copy the resulting folder to your Spicetify Themes folder (you can use `$ spicetify path` and [this page](https://github.com/khanhas/spicetify-cli/wiki/Customization#themes) to help find the right folder).
-5. Set the following fields in your config.ini:
+4. Copy the resulting folder to your Spicetify Themes folder (you can use `$ spicetify path` and/or [this page](https://github.com/khanhas/spicetify-cli/wiki/Customization#themes) to help find the right folder).
+5. Set the following fields in your config.ini (located in the folder listed [here](https://github.com/khanhas/spicetify-cli/wiki/Customization#configs), which is right next to the Themes directory.):
 ```ini
 current_theme    = google-spicetify
 color_scheme     = SamSpotifyLight
+You should modify the existing fields if applicable.
 ```
 
 
