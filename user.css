@@ -34,9 +34,9 @@
 }
 
 body {
-	--glue-font-family: "Google Sans Display", "spotify-circular", "spotify-circular-cyrillic", "spotify-circular-arabic", "spotify-circular-hebrew", "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "Meiryo", "MS Gothic", sans-serif;
+	/* --glue-font-family: "Google Sans Display", "spotify-circular", "spotify-circular-cyrillic", "spotify-circular-arabic", "spotify-circular-hebrew", "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "Meiryo", "MS Gothic", sans-serif;
 	--info-font-family: "Roboto", "spotify-circular", "spotify-circular-cyrillic", "spotify-circular-arabic", "spotify-circular-hebrew", "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "Meiryo", "MS Gothic", sans-serif;
-	letter-spacing: 0;
+	letter-spacing: 0; */
 }
 
 /*Round corner cover image*/
@@ -1137,4 +1137,38 @@ button#player-button-repeat, #player-button-thumbs-up, .view-player button[data-
 	box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
 	background-color: var(--modspotify_main_bg);
 	border-radius: 3px;
+}
+
+
+
+
+
+
+/* Sam's Tweaks */
+.LeftSidebar {
+	position: relative;
+	top: -50px;
+	min-height: calc(100% + 50px);
+}
+
+.context-menu .item.with-icon-svg:before {
+	background-image: none;
+}
+
+.card-hit-area-counter-scale-right {
+    background: hsla(141, 100%, 43%, 0.05);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.card-horizontal .card-info-content-wrapper, .card-horizontal-size-medium .card-info-wrapper .card-info-content-wrapper {
+    padding-left: 15px;
+}
+
+button[data-button=add-recommendation] {
+	background: hsla(141, 100%, 43%, 0.05);
+}
+
+.sidebar, .LeftSidebar, .LeftSidebar__scroll-section {
+	background: hsl(0, 0%, 96%);
 }
