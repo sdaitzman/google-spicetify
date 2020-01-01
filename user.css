@@ -1151,6 +1151,13 @@ button#player-button-repeat, #player-button-thumbs-up, .view-player button[data-
 	min-height: calc(100% + 50px);
 }
 
+.body-container--fullscreen .LeftSidebar {
+	top: 0;
+	min-height: 100%;
+}
+
+.body-container--fullscreen .sidebar-navbar { padding-top: 0 }
+
 .context-menu .item.with-icon-svg:before {
 	background-image: none;
 }
