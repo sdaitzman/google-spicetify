@@ -1,8 +1,9 @@
+![Screenshot 2](./screenshots/2.png "Screenshot 2")
+
 # google-spicetify: Sam's Variant
 Spotify with Google style -- Sam's light theme variant
 This is a Spotify theme that replicates the same feel and aesthetic of the original version with meaningful improvements to functionality and a light skin. Functionality like right-clicking and fullscreening are carefully preserved. You can follow the instructions below to install this theme. Please feel free to report issues or request changes [here](https://github.com/sdaitzman/google-spicetify).
 
-![Screenshot 2](./screenshots/2.png "Screenshot 2")
 
 
 ***Sam's fork instructions***
