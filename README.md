@@ -13,6 +13,11 @@ color_scheme     = SamSpotifyLight
 You should modify the existing fields if applicable.
 ```
 
+***Sam's version screenshots***
+![Screenshot 1](./screenshots/1.png "Screenshot 1")
+![Screenshot 2](./screenshots/2.png "Screenshot 2")
+![Screenshot 3](./screenshots/3.png "Screenshot 3")
+
 
 # EVERYTHING BELOW IS FROM ORIGINAL VERSION
 
