@@ -2,6 +2,9 @@
 Spotify with Google style -- Sam's light theme variant
 This is a Spotify theme that replicates the same feel and aesthetic of the original version with meaningful improvements to functionality and a light skin. Functionality like right-clicking and fullscreening are carefully preserved. You can follow the instructions below to install this theme. Please feel free to report issues or request changes [here](https://github.com/sdaitzman/google-spicetify).
 
+![Screenshot 2](./screenshots/2.png "Screenshot 2")
+
+
 ***Sam's fork instructions***
 1. [Install Spicetify](https://github.com/khanhas/spicetify-cli/wiki/Installation) (Mac `$ brew install khanhas/tap/spicetify-cli` or Windows `$ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.ps1" | Invoke-Expression`)
 2. Follow [Spicetify setup instructions](https://github.com/khanhas/spicetify-cli/wiki/Basic-Usage) (`$ spicetifty` to generate config, `$ spicetify backup apply enable-devtool` to initialize and establish a safe backup). From now on, you can run `$ spicetify update` to apply any changes you make.
@@ -16,7 +19,6 @@ You should modify the existing fields if applicable.
 
 ***Sam's version screenshots***
 ![Screenshot 1](./screenshots/1.png "Screenshot 1")
-![Screenshot 2](./screenshots/2.png "Screenshot 2")
 ![Screenshot 3](./screenshots/3.png "Screenshot 3")
 
 
