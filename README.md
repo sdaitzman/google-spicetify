@@ -1,5 +1,6 @@
-# google-spicetify
-Spotify with Google style
+# google-spicetify: Sam's Variant
+Spotify with Google style -- Sam's light theme variant
+This is a Spotify theme that replicates the same feel and aesthetic of the original version with meaningful improvements to functionality and a light skin. Functionality like right-clicking and fullscreening are carefully preserved. You can follow the instructions below to install this theme. Please feel free to report issues or request changes [here](https://github.com/sdaitzman/google-spicetify).
 
 ***Sam's fork instructions***
 1. [Install Spicetify](https://github.com/khanhas/spicetify-cli/wiki/Installation) (Mac `$ brew install khanhas/tap/spicetify-cli` or Windows `$ Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.ps1" | Invoke-Expression`)
