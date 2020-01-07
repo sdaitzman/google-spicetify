@@ -5,39 +5,6 @@
 	--section-border-radius: 8px;
 }
 
-@font-face {
-	font-family: "Google Sans Display";
-	src: url("https://d2j0f09xqmv212.cloudfront.net/fonts/GoogleSansDisplayRegular.woff2") format("woff2");
-	font-style: normal;
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: "Google Sans Display";
-	src: url("https://d2j0f09xqmv212.cloudfront.net/fonts/GoogleSansDisplayMedium.woff2") format("woff2");
-	font-style: normal;
-	font-weight: 500;
-}
-
-@font-face {
-	font-family: "Roboto";
-	src: url("https://d2j0f09xqmv212.cloudfront.net/fonts/Roboto.woff2") format("woff2");
-	font-style: normal;
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: "Roboto";
-	src: url("https://d2j0f09xqmv212.cloudfront.net/fonts/RobotoMedium.woff2") format("woff2");
-	font-style: normal;
-	font-weight: 500;
-}
-
-body {
-	/* --glue-font-family: "Google Sans Display", "spotify-circular", "spotify-circular-cyrillic", "spotify-circular-arabic", "spotify-circular-hebrew", "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "Meiryo", "MS Gothic", sans-serif;
-	--info-font-family: "Roboto", "spotify-circular", "spotify-circular-cyrillic", "spotify-circular-arabic", "spotify-circular-hebrew", "Helvetica Neue", Helvetica, Arial, "Hiragino Kaku Gothic Pro", "Meiryo", "MS Gothic", sans-serif;
-	letter-spacing: 0; */
-}
 
 /*Round corner cover image*/
 
@@ -47,10 +14,6 @@ body {
 }
 
 /*Hide some annoying elements like profile name and pic, upgrade button and device connect bar at bottom */
-
-.profile.content-top-bar__profile-link, .upgrade-button, .view-player .remote-playback-bar {
-	display: none !important;
-}
 
 /*Exclude these elements from draggable property because it stops them from clickable*/
 
@@ -566,7 +529,7 @@ body.remotebar .view-player .player-bar-wrapper {
 
 /* Sidebar */
 
-.LeftSidebar .SidebarListItem {
+/* .LeftSidebar .SidebarListItem {
 	font-weight: 400;
 }
 
@@ -596,7 +559,7 @@ body.remotebar .view-player .player-bar-wrapper {
 	bottom: unset;
 	top: 0;
 	height: 100%;
-	width: calc(var(--left-sidebar-width) - var(--left-sidebar-padding-right) + 5px);
+	width: 30px;
 	border-radius: 0 30px 30px 0;
 }
 
@@ -610,7 +573,7 @@ body.remotebar .view-player .player-bar-wrapper {
 
 .SidebarListItem__play-button {
 	z-index: 2;
-}
+} */
 
 /* Mood card */
 
